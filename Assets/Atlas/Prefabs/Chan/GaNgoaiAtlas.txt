@@ -1,0 +1,36 @@
+{"frames": {
+
+"bkg_input_bettings.png":
+{
+	"frame": {"x":2,"y":2,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+"bkg_user.png":
+{
+	"frame": {"x":46,"y":68,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30}
+},
+"border_card.png":
+{
+	"frame": {"x":2,"y":68,"w":42,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":42},
+	"sourceSize": {"w":42,"h":42}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "GaNgoaiAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":112,"h":112},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a7dc4e0d450f0b61883716bca3f6b4b:cc1c94877eb49b11d429b314443ade81:d17aa3c30e0f109330e709f90802e11d$"
+}
+}

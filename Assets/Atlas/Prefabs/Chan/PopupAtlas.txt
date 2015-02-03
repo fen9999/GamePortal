@@ -1,0 +1,52 @@
+{"frames": {
+
+"bgTransparent.png":
+{
+	"frame": {"x":136,"y":2,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"btClose.png":
+{
+	"frame": {"x":54,"y":132,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"btn_close.png":
+{
+	"frame": {"x":2,"y":132,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
+	"sourceSize": {"w":50,"h":50}
+},
+"dialog_title.png":
+{
+	"frame": {"x":104,"y":132,"w":30,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":48},
+	"sourceSize": {"w":30,"h":48}
+},
+"popup_background.png":
+{
+	"frame": {"x":2,"y":2,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "PopupAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":184,"h":184},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2317392b8e531f692f5863fc7d3f328b:ea2039d9fee7cf8d8f308bc7e1634405:d46f551a6f4a861b293a8b439f2c121e$"
+}
+}

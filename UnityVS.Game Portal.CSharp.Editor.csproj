@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBD7FA8D-1AF3-0185-BC7F-AD84A9B567D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="Prime31MenuItem">
+      <HintPath>Assets\Editor\Prime31\Prime31MenuItem.dll</HintPath>
+    </Reference>
+    <Reference Include="IFacebook">
+      <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>Assets\Plugins\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CardGameCommonLib">
+      <HintPath>Assets\Plugins\CardGameCommonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Electroserver5-Unity">
+      <HintPath>Assets\Plugins\Electroserver5-Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>Assets\Plugins\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="P31RestKit">
+      <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+    </Reference>
+    <Reference Include="PhomAlgorithmLib">
+      <HintPath>Assets\Plugins\PhomAlgorithmLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Thrift">
+      <HintPath>Assets\Plugins\Thrift.dll</HintPath>
+    </Reference>
+    <Reference Include="TLMNAlgorithmLib">
+      <HintPath>Assets\Plugins\TLMNAlgorithmLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Game Portal.CSharp.csproj">
+      <Project>{9D87BB9E-0B00-FCAB-378F-A3E7E81D6964}</Project>
+      <Name>UnityVS.Game Portal.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.Game Portal.CSharp.Plugins.csproj">
+      <Project>{E6231309-B8FE-B896-CC86-FD7C33C5EAF0}</Project>
+      <Name>UnityVS.Game Portal.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\FindMissingScripts.cs" />
+    <Compile Include="Assets\Editor\FindMissingScriptsRecursively.cs" />
+    <Compile Include="Assets\ExtraTool\EasyFont\Editor\EasyFontCustomEditor.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\DragRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerGesturesEditorUtils.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerGesturesInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerHoverDetectorInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerMotionDetectorInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\FingerUpDetectorInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\GestureRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\LongPressRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\PinchRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\PointCloudGestureEditor.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\PointCloudGestureTemplateInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\PointCloudRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\TapRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+    <Compile Include="Assets\ExtraTool\FingerGestures\Editor\HighlightingSystemEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIHandles.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUISnap.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UICameraEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIGridEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIInputEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIRectEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIRootEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UITableEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\ExtraTool\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+    <Compile Include="Assets\Facebook\Editor\FacebookPostprocess.cs" />
+    <Compile Include="Assets\Facebook\Editor\FacebookSettingsEditor.cs" />
+    <Compile Include="Assets\Facebook\Editor\android\FacebookAndroidUtil.cs" />
+    <Compile Include="Assets\Facebook\Editor\android\ManifestMod.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\FixupFiles.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\PlistMod.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXBuildFile.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXBuildPhase.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXDictionary.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXFileReference.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXGroup.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXList.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXObject.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXParser.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXProject.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCBuildConfiguration.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCConfigurationList.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCFileOperationQueue.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCMod.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCProject.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCSourceFile.cs" />
+    <Compile Include="Assets\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCTarget.cs" />
+    <Compile Include="Assets\Scripts\Editor\UIBackgroundButtonEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\UIBackgroundInputEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\UIBackgroundInputSliceEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\UIBackgroundPopupEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\UISliceBackgroundPopupEditor.cs" />
+    <Compile Include="Assets\Scripts\GameSettings\Editor\GameSettingsEditor.cs" />
+    <None Include="Assets\Atlas\Prefabs\Chan\BackgroundAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\CardEffectAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\ChannelAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\ChipEffectAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\CuocXuongAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\EmoticonsAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\GameplayAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\GaNgoaiAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\GenericIconAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\GiaiDauAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\GoogleAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\HeaderMenuAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\InputAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\LevelAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\LinesAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\LobbyAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\LoginAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\MarketAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\NumberAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\PingAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\PopupAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\ProfileGeneralAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\RechargeAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\SettingAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\SupportAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\Chan\Tahoma_24_EmoticonAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\ChannelNameAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\ChatAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\GameplayAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\GameplayManagerAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\AnnouncementAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\CardEffectAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\ChannelAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\ChannelTabAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\ChipEffectAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\GenericIconAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\GoogleAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\InputAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\NapTheAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\NumberAtlas.txt" />
+    <None Include="Assets\Atlas\Prefabs\TLMN\ProfileGeneralAtlas.txt" />
+    <None Include="Assets\ExtraTool\EasyFont\Shaders\EasyFontDetail.shader" />
+    <None Include="Assets\ExtraTool\FingerGestures\Readme.txt" />
+    <None Include="Assets\ExtraTool\NGUI\ReadMe - 3.7.4.txt" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\ExtraTool\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\ExtraTool\UniWebView\ChangeLog.txt" />
+    <None Include="Assets\ExtraTool\UniWebView\Readme.txt" />
+    <None Include="Assets\Facebook\FacebookWeb\Externals\Javascript\json2.txt" />
+    <None Include="Assets\Facebook\FacebookWeb\FacebookAPI_unity4.txt" />
+    <None Include="Assets\Facebook\FacebookWeb\readme.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+    <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+    <None Include="Assets\Plugins\Android\facebook\build.xml" />
+    <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_tooltip_bubble.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Etcetera\Manifest.xml" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingInclude.cginc" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilOpaque.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilOpaqueZ.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilTransparent.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilTransparentZ.shader" />
+    <None Include="Assets\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+    <None Include="Assets\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingBlur.shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingComposite.shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingInclude.cginc" />
+    <None Include="Assets\Resources\Shaders\HighlightingStencilOpaque.shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingStencilOpaqueZ.shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingStencilTransparent.shader" />
+    <None Include="Assets\Resources\Shaders\HighlightingStencilTransparentZ.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+    <None Include="Assets\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Editor\Prime31\Prime31MenuItem.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+    <None Include="Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

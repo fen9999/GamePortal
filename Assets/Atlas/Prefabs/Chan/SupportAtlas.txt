@@ -1,0 +1,52 @@
+{"frames": {
+
+"Phones.png":
+{
+	"frame": {"x":51,"y":0,"w":48,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":50},
+	"sourceSize": {"w":48,"h":50}
+},
+"Skype.png":
+{
+	"frame": {"x":149,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"Yahoo.png":
+{
+	"frame": {"x":100,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"btView.png":
+{
+	"frame": {"x":0,"y":0,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
+	"sourceSize": {"w":50,"h":50}
+},
+"iconSupport.png":
+{
+	"frame": {"x":198,"y":0,"w":154,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":154,"h":44},
+	"sourceSize": {"w":154,"h":44}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "SupportAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":352,"h":50},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ccc73b59414c12daa1f0603245ff9adc:1/1$"
+}
+}

@@ -1,0 +1,60 @@
+{"frames": {
+
+"IconChip.png":
+{
+	"frame": {"x":2,"y":2,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"IconChip2.png":
+{
+	"frame": {"x":2,"y":148,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"IconMarket.png":
+{
+	"frame": {"x":2,"y":100,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"IconMoney.png":
+{
+	"frame": {"x":2,"y":196,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
+"IconMoney2.png":
+{
+	"frame": {"x":2,"y":52,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"Line.png":
+{
+	"frame": {"x":50,"y":52,"w":5,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":60},
+	"sourceSize": {"w":5,"h":60}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Market.png",
+	"format": "RGBA8888",
+	"size": {"w":57,"h":238},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:be4f927f1483b6034b77a1bbb376ccb8$"
+}
+}

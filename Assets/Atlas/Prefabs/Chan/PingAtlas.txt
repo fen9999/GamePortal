@@ -1,0 +1,44 @@
+{"frames": {
+
+"disconnect.png":
+{
+	"frame": {"x":104,"y":2,"w":32,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":22},
+	"sourceSize": {"w":32,"h":22}
+},
+"excellent.png":
+{
+	"frame": {"x":70,"y":2,"w":32,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":22},
+	"sourceSize": {"w":32,"h":22}
+},
+"low.png":
+{
+	"frame": {"x":36,"y":2,"w":32,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":22},
+	"sourceSize": {"w":32,"h":22}
+},
+"normal.png":
+{
+	"frame": {"x":2,"y":2,"w":32,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":22},
+	"sourceSize": {"w":32,"h":22}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "ping.png",
+	"format": "RGBA8888",
+	"size": {"w":138,"h":26},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8e31c83e911c8fe9266d63def4847165:5eaa2e8e441a7a225752b3e186c18e27:2337b8c9439aa3d768453f9f84b6f5c5$"
+}
+}

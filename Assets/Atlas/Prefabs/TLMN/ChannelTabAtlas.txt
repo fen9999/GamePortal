@@ -1,0 +1,68 @@
+{"frames": {
+
+"Background.png":
+{
+	"frame": {"x":2,"y":2,"w":700,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":700,"h":60},
+	"sourceSize": {"w":700,"h":60}
+},
+"Four_player.png":
+{
+	"frame": {"x":808,"y":2,"w":65,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":20},
+	"sourceSize": {"w":65,"h":20}
+},
+"One_player.png":
+{
+	"frame": {"x":744,"y":40,"w":65,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":20},
+	"sourceSize": {"w":65,"h":20}
+},
+"lock.png":
+{
+	"frame": {"x":778,"y":2,"w":28,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":34},
+	"sourceSize": {"w":28,"h":34}
+},
+"playing.png":
+{
+	"frame": {"x":744,"y":2,"w":32,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":36},
+	"sourceSize": {"w":32,"h":36}
+},
+"waiting.png":
+{
+	"frame": {"x":708,"y":2,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":40},
+	"sourceSize": {"w":34,"h":40}
+},
+"wall.png":
+{
+	"frame": {"x":704,"y":2,"w":2,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2,"h":48},
+	"sourceSize": {"w":2,"h":48}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "ChannelTabAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":875,"h":65},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:226799c6c474d89e4bc7505ae2f63dc8$"
+}
+}

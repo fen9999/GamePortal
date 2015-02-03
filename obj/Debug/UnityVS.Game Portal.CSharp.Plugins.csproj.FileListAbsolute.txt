@@ -1,0 +1,18 @@
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\BouncyCastle.Crypto.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\CardGameCommonLib.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\Electroserver5-Unity.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\IFacebook.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\log4net.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\P31RestKit.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\PhomAlgorithmLib.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\Thrift.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\TLMNAlgorithmLib.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Project\Game Portal\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Project\Game Portal\obj\Debug\UnityVS.Game Portal.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\Project\Game Portal\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Project\Game Portal\obj\Debug\Assembly-CSharp-firstpass.pdb

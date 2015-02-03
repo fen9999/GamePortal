@@ -1,0 +1,28 @@
+{"frames": {
+
+"avatar_border.png":
+{
+	"frame": {"x":2,"y":2,"w":25,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":25},
+	"sourceSize": {"w":25,"h":25}
+},
+"exp_bkg.png":
+{
+	"frame": {"x":29,"y":2,"w":25,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":20},
+	"sourceSize": {"w":25,"h":20}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "LevelAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":56,"h":29},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:408b59ae576e0b377b7bf9ba3119aa68:7be15d7ce5c549ec69e956f2b2979909:d4fb7bbc94322b10aab4583ac9bf62bd$"
+}
+}

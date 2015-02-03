@@ -1,0 +1,60 @@
+{"frames": {
+
+"bglobby_grow.png":
+{
+	"frame": {"x":434,"y":2,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"bgrepeat.png":
+{
+	"frame": {"x":636,"y":114,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":90},
+	"sourceSize": {"w":90,"h":90}
+},
+"bgshadow.png":
+{
+	"frame": {"x":232,"y":2,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"chan_screen_center.png":
+{
+	"frame": {"x":728,"y":114,"w":86,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":89},
+	"sourceSize": {"w":86,"h":89}
+},
+"logo_center.png":
+{
+	"frame": {"x":2,"y":2,"w":228,"h":228},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":228},
+	"sourceSize": {"w":228,"h":228}
+},
+"logo_center_2.png":
+{
+	"frame": {"x":636,"y":2,"w":110,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":110},
+	"sourceSize": {"w":110,"h":110}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "BackgroundAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":816,"h":232},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bf3bbe2a7701dbb8d32120e029cf0dfc$"
+}
+}
